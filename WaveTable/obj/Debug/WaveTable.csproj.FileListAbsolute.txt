@@ -1,0 +1,9 @@
+H:\TopMostForm3Exp\WaveTable\WaveTable\bin\Debug\WaveTable.exe
+H:\TopMostForm3Exp\WaveTable\WaveTable\bin\Debug\WaveTable.pdb
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.csprojResolveAssemblyReference.cache
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.Properties.Resources.resources
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.WTMainForm.resources
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.csproj.GenerateResource.cache
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.csproj.CoreCompileInputs.cache
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.exe
+H:\TopMostForm3Exp\WaveTable\WaveTable\obj\Debug\WaveTable.pdb

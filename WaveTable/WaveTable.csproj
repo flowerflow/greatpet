@@ -1,0 +1,176 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39CC8FAC-3E8C-49C2-9D01-8D5ED6AE674B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveTable</RootNamespace>
+    <AssemblyName>WaveTable</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImageHandle.cs" />
+    <Compile Include="WTMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WTMainForm.Designer.cs">
+      <DependentUpon>WTMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WTMainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WTMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Win32 API.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Watch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WatchFlex.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BadGirl0.jpg" />
+    <Content Include="Resources\BadGirl00.jpg" />
+    <Content Include="Resources\BadGirl01.jpg" />
+    <Content Include="Resources\BadGirl02.jpg" />
+    <Content Include="Resources\BadGirl03.jpg" />
+    <Content Include="Resources\BadGirl04.jpg" />
+    <Content Include="Resources\BadGirl05.jpg" />
+    <Content Include="Resources\BadGirl06.jpg" />
+    <Content Include="Resources\BadGirl07.jpg" />
+    <Content Include="Resources\BadGirl08.jpg" />
+    <Content Include="Resources\BadGirl09.jpg" />
+    <Content Include="Resources\BadGirl1.jpg" />
+    <Content Include="Resources\BadGirl10.jpg" />
+    <Content Include="Resources\BadGirl11.jpg" />
+    <Content Include="Resources\BadGirl12.jpg" />
+    <Content Include="Resources\BadGirl13.jpg" />
+    <Content Include="Resources\BadGirl14.jpg" />
+    <Content Include="Resources\BadGirl15.jpg" />
+    <Content Include="Resources\BadGirl16.jpg" />
+    <Content Include="Resources\BadGirl17.jpg" />
+    <Content Include="Resources\BadGirl18.jpg" />
+    <Content Include="Resources\BadGirl19.jpg" />
+    <Content Include="Resources\BadGirl2.jpg" />
+    <Content Include="Resources\BadGirl20.jpg" />
+    <Content Include="Resources\BadGirl21.jpg" />
+    <Content Include="Resources\BadGirl22.jpg" />
+    <Content Include="Resources\BadGirl23.jpg" />
+    <Content Include="Resources\BadGirl24.jpg" />
+    <Content Include="Resources\BadGirl25.jpg" />
+    <Content Include="Resources\BadGirl26.jpg" />
+    <Content Include="Resources\BadGirl27.jpg" />
+    <Content Include="Resources\BadGirl28.jpg" />
+    <Content Include="Resources\BadGirl29.jpg" />
+    <Content Include="Resources\BadGirl3.jpg" />
+    <Content Include="Resources\BadGirl30.jpg" />
+    <Content Include="Resources\BadGirl31.jpg" />
+    <Content Include="Resources\BadGirl32.jpg" />
+    <Content Include="Resources\BadGirl33.jpg" />
+    <Content Include="Resources\BadGirl34.jpg" />
+    <Content Include="Resources\BadGirl35.jpg" />
+    <Content Include="Resources\BadGirl36.jpg" />
+    <Content Include="Resources\BadGirl37.jpg" />
+    <Content Include="Resources\BadGirl38.jpg" />
+    <Content Include="Resources\BadGirl39.jpg" />
+    <Content Include="Resources\BadGirl4.jpg" />
+    <Content Include="Resources\BadGirl40.jpg" />
+    <Content Include="Resources\BadGirl41.jpg" />
+    <Content Include="Resources\BadGirl42.jpg" />
+    <Content Include="Resources\BadGirl43.jpg" />
+    <Content Include="Resources\BadGirl44.jpg" />
+    <Content Include="Resources\BadGirl45.jpg" />
+    <Content Include="Resources\BadGirl46.jpg" />
+    <Content Include="Resources\BadGirl47.jpg" />
+    <Content Include="Resources\BadGirl48.jpg" />
+    <Content Include="Resources\BadGirl5.jpg" />
+    <Content Include="Resources\BadGirl6.jpg" />
+    <Content Include="Resources\BadGirl7.jpg" />
+    <Content Include="Resources\BadGirl8.jpg" />
+    <Content Include="Resources\BadGirl9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
