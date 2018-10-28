@@ -10,5 +10,5 @@
 ##从网上找到别的写代码
 ##python，c++都不太方便
 ##只有c#最方便
-##所以效果图如下，PS，其实是个动态的，但是我懒得录制，所以直接截图了
-![其实是个动图](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+##所以效果图如下，PS，其实是个动态的，但是我懒得录制，所以直接截图了，但是其他的功能都没写，我果然很懒。。其实很想加个啥清理垃圾啊，加速之类的功能
+![其实是个动图](https://github.com/flowerflow/greatpet/blob/master/hello.png)
